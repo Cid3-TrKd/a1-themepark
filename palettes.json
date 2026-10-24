@@ -1,0 +1,86 @@
+{
+  "_note": "Samsung Theme Park quick-panel palettes. Hex is AARRGGBB. 'card', 'active_glyph' and 'inactive_glyph' are six-digit-only slots in the editor and will silently truncate an eight-digit value.",
+  "device": {
+    "model": "SM-S266V",
+    "marketing_name": "Galaxy A26 5G",
+    "csc": "TFN",
+    "android": "16",
+    "one_ui": "8.5 (80500)",
+    "build": "BP4A.251205.006 / S266VUDSACZH3",
+    "display": "1080x2340",
+    "root": false,
+    "themepark_version": "1.1.02.2",
+    "themepark_version_code": 110202000
+  },
+  "slots": {
+    "background": { "tap": [223, 1150], "digits": 8, "controls": "shade base colour" },
+    "on_disc": { "tap": [361, 792], "digits": 8, "controls": "disc behind an enabled tile" },
+    "off_disc": { "tap": [856, 971], "digits": 8, "controls": "disc behind a disabled tile" },
+    "sliders": { "tap": [428, 1459], "digits": 8, "controls": "brightness/volume track and knob" },
+    "card": { "tap": [577, 1294], "digits": 6, "controls": "container tint behind the tile grid" },
+    "active_glyph": { "tap": [335, 648], "digits": 6, "controls": "icon colour on enabled tiles" },
+    "inactive_glyph": { "tap": [808, 806], "digits": 6, "controls": "icon colour on disabled tiles and inactive pill labels" }
+  },
+  "palettes": {
+    "CyberPop": {
+      "applied": true,
+      "look": "purple base, bright blue glyphs, bubble-gum pink lit tiles and sliders",
+      "screenshot": "screenshots/cyberpop-expanded.png",
+      "values": {
+        "background": "FF0A0418",
+        "on_disc": "99FF4DA6",
+        "off_disc": "4D8A2BE2",
+        "sliders": "FFFF4DA6",
+        "card": "8A2BE2",
+        "active_glyph": "1E90FF",
+        "inactive_glyph": "1E90FF"
+      }
+    },
+    "CyberNeon4": {
+      "applied": false,
+      "look": "near-black violet, dark green/maroon discs, all glyphs electric blue",
+      "screenshot": "screenshots/cyberneon4-blue-on-dark.png",
+      "values": {
+        "background": "FF0B0618",
+        "on_disc": "4D22FF66",
+        "off_disc": "66FF2A6D",
+        "sliders": "FFFF2A6D",
+        "card": "FF2A6D",
+        "active_glyph": "00E5FF",
+        "inactive_glyph": "00E5FF"
+      }
+    },
+    "A1Duotone": {
+      "applied": false,
+      "look": "icons split by state: electric yellow on, cyan off",
+      "screenshot": "screenshots/a1duotone-yellow-cyan.png",
+      "values": {
+        "background": "FF0A0714",
+        "on_disc": "4D22FF66",
+        "off_disc": "66FF2A6D",
+        "sliders": "FFFF2A6D",
+        "card": "FF2A6D",
+        "active_glyph": "FFE600",
+        "inactive_glyph": "00E5FF"
+      }
+    },
+    "A1Ice": {
+      "applied": false,
+      "look": "navy base, teal discs, white/ice glyphs, cyan container",
+      "screenshot": "screenshots/a1ice-white-teal.png",
+      "values": {
+        "background": "FF05070F",
+        "on_disc": "4D00C8FF",
+        "off_disc": "4D2A1E6A",
+        "sliders": "FF00E5FF",
+        "card": "00E5FF",
+        "active_glyph": "FFFFFF",
+        "inactive_glyph": "B8E8FF"
+      }
+    }
+  },
+  "unrecorded": {
+    "_note": "These exist in Theme Park's list on the device but their slot values were never captured; only screenshots survive.",
+    "themes": ["CyberNeon2", "CyberNeon3", "CyberNeon"]
+  }
+}
